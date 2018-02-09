@@ -1,0 +1,16 @@
+# source## EOL upgrade sources.list
+# Required
+deb http://old-releases.ubuntu.com/ubuntu/ zesty main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ zesty-updates main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ zesty-security main restricted universe multiverse
+# deb-src [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/mssql-server xenial main
+# deb-src [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/mssql-server xenial main
+deb [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/mssql-server xenial main
+# deb-src [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/mssql-server xenial main
+deb [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/prod xenial main
+# deb-src [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/prod xenial main
+deb [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/mssql-server-2017 xenial main
+# deb-src [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/mssql-server-2017 xenial main
+# deb-src [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/prod xenial main
+# deb-src [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/mssql-server xenial main
+# deb-src [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/mssql-server xenial main
